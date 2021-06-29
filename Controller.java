@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Controller {
     List<Activity> activityList = new ArrayList<>();
-    private static final String filepath="C:\\Users\\Joipoi\\IdeaProjects\\Java2021\\src\\obj";
+    private static final String filepath="src/obj";
 
     public static void main(String[] args) {
         Controller controller = new Controller();
