@@ -9,9 +9,11 @@ import java.util.List;
 
 public class Controller {
     List<Activity> activityList = new ArrayList<>();
-    private static final String filepath="src/obj";
+    private static final String filepath="obj"; //for console
+    //private static final String filepath="src/obj"; //for inteliJ
 
     public static void main(String[] args) {
+        System.out.println(System.getProperty("user.dir"));
         Controller controller = new Controller();
         controller.ReadObjectToFile();
 
